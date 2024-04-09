@@ -13,6 +13,7 @@ Criar a sua primeira página com interação.
 7. [ ] Estilizar os elementos adicionsados: copie o código nas referências e cole o na tag `style` e altere conforme seu gosto.
 8. [ ] Adicione o código da referência ao seu `script`.
 9. [ ] Linke a função do seu código com o botão conforme diz no link da referência.
+10. [ ] Compare com o [gabarityo](./index.html)
 
 ## Resultado esperado
 
