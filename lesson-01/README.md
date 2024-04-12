@@ -42,7 +42,7 @@ function whatYourName() {
 }
 ```
 
-- Se você quiser pode ver [aqui](https://www.w3schools.com/css/default.asp), como estilizar a sua página. Copie o código abaixo e altee as cores ao seu gosto.
+- Se você quiser pode ver [aqui](https://www.w3schools.com/css/default.asp), como estilizar a sua página. Copie o código abaixo e altere as cores ao seu gosto.
 
 ```css
 body {
