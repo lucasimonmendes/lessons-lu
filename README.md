@@ -7,5 +7,5 @@
 Clique abaixo para ver a atividade.
 
 - [Atividade 01](/lesson-01/README.md)
-- [Atividade 02](#)
+- [Atividade 02](/lesson-02/README.md)
 - [Atividade 03](#)
