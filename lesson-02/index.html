@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Atividade 02</title>
+    <style>
+      body {
+        background-color: purple;
+        color: white;
+        font: normal 20pt Arial;
+      }
+      button {
+        background-color: pink;
+        color: black;
+        border: none;
+        padding: 16px 32px;
+        cursor: pointer;
+        border-radius: 25px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Hello, world!</h1>
+    <h2>Sou eu, Luana!</h2>
+    <h3>Qual o seu nome?</h3>
+
+    <p>Clique no botão abaixo para dizer:</p>
+
+    <button type="button" onclick="whatYourName()">Diga-me seu nome</button>
+
+    <h3>Quer saber seu IMC?</h3>
+    <p>Clique no botão abaixo e descubra:</p>
+    <button type="button" onclick="whatYourIMC()">Calcular IMC</button>
+    <script>
+      // função que pega o nome via prompt e imprime na tela via alert
+      function whatYourName() {
+        let name = window.prompt("Qual é o seu nome?");
+
+        window.alert("Olá, " + name + " !");
+      }
+
+      // função que pega a altura e o peso, calcula o IMC e imprime na tela via alert
+      function whatYourIMC() {
+        let height = window.prompt("Qual a sua altura? (em metros)");
+        let weight = window.prompt("Qual o seu peso? (em kg)");
+
+        let imc = weight / (height ^ 2);
+
+        window.alert(`Seu IMC é: ${imc}`);
+      }
+    </script>
+  </body>
+</html>
